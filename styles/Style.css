@@ -627,86 +627,48 @@ footer hr {
         text-align: center;
     }
 }
-/* Para pantallas de 480px o menos */
+
 @media only screen and (max-width: 480px) {
     header {
         flex-direction: column;
+        align-items: center; /* Asegura que el contenido se centre */
         height: auto;
-        padding: 15px;
+        padding: 5px; /* Reduce el padding */
     }
 
     nav ul {
         flex-direction: column;
-        gap: 15px;
-        font-size: 14px;
+        gap: 5px;
+        font-size: 10px; /* Tamaño de fuente más pequeño */
     }
 
     .Happy {
-        flex-direction: column;
-        margin: 30px;
+        margin: 10px auto; /* Asegura márgenes automáticos para centrar */
         text-align: center;
-    }
-
-    .Texto1 {
-        margin-left: 0;
-        margin-right: 0;
     }
 
     .Titulo2 {
-        font-size: 70px;
-        line-height: 60px;
-    }
-
-    .Wecan {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .Titulo3 {
-        font-size: 50px;
+        font-size: 40px; /* Tamaño más pequeño */
         line-height: 45px;
     }
 
     .Texto1 p, .texto2 {
-        font-size: 14px;
+        font-size: 11px; /* Ajusta el tamaño del texto */
+        padding: 5px; /* Reduce el espacio alrededor del texto */
     }
 
     .personas {
-        width: 100%;
+        width: 90%; /* Añade un pequeño margen */
         height: auto;
     }
 
     .Numbers, .graficas {
         flex-direction: column;
+        align-items: center; /* Asegura que los elementos se centren */
     }
 
     .Titulo4 {
-        font-size: 40px;
-    }
-
-    .numeros {
-        width: 100%;
-    }
-
-    .section4 img {
-        width: 100%;
-    }
-
-    .section5 img, .section6 img {
-        width: 100%;
-    }
-
-    .section7container img {
-        width: 100%;
-    }
-
-    .section8 form {
-        width: 100%;
-        padding: 15px;
-    }
-
-    .section9 img {
-        width: 100%;
+        font-size: 25px;
     }
 
     footer {
@@ -722,9 +684,86 @@ footer hr {
     .footericons {
         justify-content: center;
     }
+    .section4 .content {
+        img {
+            width: 40%;
+        }
+    }
+    .section4 aside {
+        & .text {
+            h2 {
+                font-size: 65px;
+                
+            }
+        }
+    }
+    .amigos {
+        width: 300px;
+    }
+    .section6 img {
+        width: 0%;
+    }
+    .section4 .content aside img {
+        align-self:auto;
+        margin: auto;
+        
+    }
+    .numeros{
+        width: 30%;
+    }
+    .Titulo3{
+        font-size: 30px;
+        margin-top:299px
+    }
+    .section6 .text {
+        width: 0%;
+    }
+    .section7container .text {
+        width: 0%;
+
+    }
+    .section4 aside {
+        width: 0%;
+    }
+    .section4 aside {
+        & .text {
+            p {
+              
+                font-size: 15px;
+            }
+        }
+    }
+    .texto2 {
+        padding: 0px;
+        
+    }
+    .section6 .text p{
+        width:150px ;
+        margin:0px;
+        
+    }
+    .section7container .text h2 {
+     
+            font-size: 60px;
+            width:250px ;
+           
+            
+    }
+    .section7container .text p {
+        width: 0px;
+        width: 300px;
+    }
+  
+
+    .section8 form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    
 }
 
- /* Para pantallas de 352px o menos */
+
 @media only screen and (max-width: 352px) {
     header {
         flex-direction: column;
