@@ -1,0 +1,856 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: #f5cb00;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-items: center;
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 45px;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-size: 15px;
+}
+
+nav ul {
+    display: flex;
+    color: black;
+    align-items: center;
+    gap: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+nav li {
+    list-style: none;
+}
+
+.Happy {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 300px;
+}
+
+.Texto1 {
+    margin-left: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-right: 100px;
+}
+
+.Titulo2 {
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 75px;
+}
+
+.particion {
+    display: flex;
+}
+
+
+.boton1 {
+    background-color: rgb(245, 203, 0);
+    color: black;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-weight: 800;
+}
+
+.Wecan {
+    display: flex;
+    background-color: #f5cb00;
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+.Titulo3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 60px;
+
+}
+
+.texto2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 20%;
+}
+
+.divTexto2 {
+    margin-left: 7%;
+    margin-top: 25%;
+}
+
+.boton2 {
+    color: white;
+    background-color: black;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-weight: 800;
+}
+
+.gente {
+    margin-top: 35%;
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+.personas {
+    width: 100vh;
+    height: 100%;
+}
+
+.Numbers {
+    position: relative;
+    top: 650px;
+    background-color: #e6e6e6;
+    display: flex;
+    position: absolute;
+    height: 300px;
+    margin: 70px;
+    padding-top: 50px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.graficas {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-right: 80px;
+
+}
+
+.divnumbers {
+    margin-right: 25%;
+    margin-left: 10%;
+}
+
+.numeros {
+    
+    height: 50%;
+}
+
+.Titulo4 {
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #f5cb00;
+}
+
+.texto3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.botontransparent {
+    color: black;
+    border: 0;
+    background-color: transparent;
+    font-weight: 900;
+}
+
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+
+    .content {
+        width: 85%;
+        background-color: #e6e6e6;
+    }
+}
+
+.section4 .content {
+    box-shadow: 15px 15px 20px #0000004f;
+    display: flex;
+
+    img {
+        min-height: 100%;
+        width: 50%;
+    }
+}
+
+.section4 aside {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 48px;
+
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        align-items: start;
+        height: 430px;
+
+        h2 {
+            line-height: 4.6rem;
+            word-break: keep-all;
+            font-size: 104px;
+            color: #f5cc00;
+            font-family: 'Bebas Neue', display;
+            font-weight: 500;
+        }
+
+        p {
+            width: 70%;
+            font-size: 24px;
+        }
+    }
+}
+
+.section4 .content aside img {
+    align-self: end;
+}
+
+.section5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 48px 0;
+    background-color: #000;
+    text-align: center;
+}
+
+.section5 h2 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', display;
+    color: #f5cc00;
+}
+
+.section5 p {
+    width: 40%;
+    color: #fff;
+}
+
+.section5 img {
+    width: 60%;
+}
+
+.section5 button {
+    background-color: #f5cc00;
+    padding: .6rem 2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: none;
+}
+
+.section6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 120px 0;
+    gap: 10rem;
+}
+
+.section6 img {
+    width: 40%;
+    min-width: 300px;
+}
+
+.section6 .text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+
+.section6 .text h2 {
+    font-size: 64px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', display;
+    line-height: 6.4rem;
+}
+
+.section6 .text p {
+    font-size: 18px;
+}
+
+.section7 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6e6;
+    padding: 120px 0;
+}
+
+.section7container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.section7container img {
+    width: 50%;
+    min-width: 300px;
+}
+
+.section7container .text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: start;
+}
+
+.section7container .text h2 {
+    font-size: 94px;
+    font-family: 'Bebas Neue', display;
+    font-weight: 500;
+    line-height: 100px;
+}
+
+.section7container .text p {
+    width: 70%;
+    font-size: 20px;
+}
+
+.section8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 180px 0;
+    gap: 82px;
+
+    form {
+        background-color: #000;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        min-width: 300px;
+        padding: 64px;
+        gap: 12px;
+        color: #fff;
+
+        input,
+        textarea {
+            background-color: #000;
+            border: 3px solid #fff;
+        }
+
+        input {
+            height: 40px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        textarea {
+            height: 180px;
+        }
+    }
+}
+.section8 .text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+
+    h2 {
+        font-size: 64px;
+        color: #f5cc00;
+        font-weight: 400;
+        font-family: 'Bebas Neue', display;
+        line-height: 56px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+.inputcontainer,
+.textareacontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    label {
+        font-size: 24px;
+    }
+}
+.column1form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .inputcontainer {
+        width: calc(45%);
+
+        input {
+            width: 100%;
+        }
+    }
+}
+.section9 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 48px 0;
+    background-color: #f5cc00;
+    text-align: center;
+}
+
+.section9 h2 {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', display;
+    color: #000;
+}
+
+.section9 p {
+    font-size: 24px;
+    color: #000;
+}
+
+.section9 img {
+    width: 80%;
+}
+
+.section9 button {
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    padding: 16px 40px;
+    font-weight: 600;
+}
+footer {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    padding: 98px 48px;
+    color: #f5cc00;
+    gap: 120px;
+
+    img {
+        width: 140px;
+    }
+}
+
+.footerlinks {
+    display: flex;
+    width: 20%;
+    font-size: 24px;
+    align-self: start;
+    justify-content: space-between;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 12px;
+
+    img {
+        height: 24px;
+        width: 24px;
+    }
+}
+
+.lastfooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer hr {
+    margin-bottom: 48px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .Happy {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .Texto1 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .Titulo2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .Wecan {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .divTexto2 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .personas {
+        width: 100%;
+        height: auto;
+    }
+
+    .Numbers {
+        flex-direction: column;
+        height: auto;
+        margin: 20px;
+    }
+
+    .graficas {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .section4 .content {
+        flex-direction: column;
+    }
+
+    .section4 img {
+        width: 100%;
+    }
+
+    .section4 aside {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section6 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section6 img {
+        width: 100%;
+    }
+
+    .section6 .text {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section7container {
+        flex-direction: column;
+    }
+
+    .section7container img {
+        width: 100%;
+    }
+
+    .section7container .text {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section8 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .section8 form {
+        width: 100%;
+    }
+
+    .section8 .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section9 img {
+        width: 100%;
+    }
+
+    footer {
+        gap: 50px;
+        padding: 50px 20px;
+    }
+
+    .footerlinks {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .lastfooter {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+/* Para pantallas de 480px o menos */
+@media only screen and (max-width: 480px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    .Happy {
+        flex-direction: column;
+        margin: 30px;
+        text-align: center;
+    }
+
+    .Texto1 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .Titulo2 {
+        font-size: 70px;
+        line-height: 60px;
+    }
+
+    .Wecan {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Titulo3 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    .Texto1 p, .texto2 {
+        font-size: 14px;
+    }
+
+    .personas {
+        width: 100%;
+        height: auto;
+    }
+
+    .Numbers, .graficas {
+        flex-direction: column;
+    }
+
+    .Titulo4 {
+        font-size: 40px;
+    }
+
+    .numeros {
+        width: 100%;
+    }
+
+    .section4 img {
+        width: 100%;
+    }
+
+    .section5 img, .section6 img {
+        width: 100%;
+    }
+
+    .section7container img {
+        width: 100%;
+    }
+
+    .section8 form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .section9 img {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerlinks {
+        flex-direction: column;
+    }
+
+    .footericons {
+        justify-content: center;
+    }
+}
+
+ /* Para pantallas de 352px o menos */
+@media only screen and (max-width: 352px) {
+    header {
+        flex-direction: column;
+        align-items: center; /* Asegura que el contenido se centre */
+        height: auto;
+        padding: 5px; /* Reduce el padding */
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+        font-size: 10px; /* Tamaño de fuente más pequeño */
+    }
+
+    .Happy {
+        margin: 10px auto; /* Asegura márgenes automáticos para centrar */
+        text-align: center;
+    }
+
+    .Titulo2 {
+        font-size: 40px; /* Tamaño más pequeño */
+        line-height: 45px;
+    }
+
+    .Texto1 p, .texto2 {
+        font-size: 11px; /* Ajusta el tamaño del texto */
+        padding: 5px; /* Reduce el espacio alrededor del texto */
+    }
+
+    .personas {
+        width: 90%; /* Añade un pequeño margen */
+        height: auto;
+    }
+
+    .Numbers, .graficas {
+        flex-direction: column;
+        align-items: center; /* Asegura que los elementos se centren */
+    }
+
+    .Titulo4 {
+        font-size: 25px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerlinks {
+        flex-direction: column;
+    }
+
+    .footericons {
+        justify-content: center;
+    }
+    .section4 .content {
+        img {
+            width: 40%;
+        }
+    }
+    .section4 aside {
+        & .text {
+            h2 {
+                font-size: 65px;
+                
+            }
+        }
+    }
+    .amigos {
+        width: 300px;
+    }
+    .section6 img {
+        width: 0%;
+    }
+    .section4 .content aside img {
+        align-self:auto;
+        margin: auto;
+        
+    }
+    .numeros{
+        width: 30%;
+    }
+    .Titulo3{
+        font-size: 30px;
+        margin-top:299px
+    }
+    .section6 .text {
+        width: 0%;
+    }
+    .section7container .text {
+        width: 0%;
+
+    }
+    .section4 aside {
+        width: 0%;
+    }
+    .section4 aside {
+        & .text {
+            p {
+              
+                font-size: 15px;
+            }
+        }
+    }
+    .texto2 {
+        padding: 0px;
+        
+    }
+    .section6 .text p{
+        width:150px ;
+        margin:0px;
+        
+    }
+    .section7container .text h2 {
+     
+            font-size: 60px;
+            width:250px ;
+           
+            
+    }
+    .section7container .text p {
+        width: 0px;
+        width: 300px;
+    }
+
+
+
+}
